@@ -101,7 +101,7 @@ static void Recipes$init(Recipes* res) {
 	ItemInstance dirt;
 	
 	ItemInstance$ItemInstance(&dirt, 3, 1, 0);
-
+//土からダイヤモンドをクラフトできるレシピを追加します
 	Recipes$addShapedRecipe(res, diamond, "#", {Recipes::Type{NULL, NULL, dirt, '#'}});
 }
 
